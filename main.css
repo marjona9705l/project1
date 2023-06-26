@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+.container {
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    padding: 20px;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list {
+    display: flex;
+    column-gap: 20px;
+}
